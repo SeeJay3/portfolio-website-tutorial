@@ -16,7 +16,7 @@
     }
     
     #hamburguer-nav {
-        display: none;
+        display: flex;
     }
 
     #experience, .experience-details-container {
