@@ -45,6 +45,7 @@ nav {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+    
 }
 
 a{
@@ -104,6 +105,8 @@ a:hover {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
+    /* position: relative;  */
+    z-index: 9999;
 } 
 
  .menu-links a {
@@ -177,6 +180,8 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    position: relative; 
+    z-index: 1;
 }
 
 .section_text {
